@@ -1,0 +1,30 @@
+.news {
+  border-left: 20px solid lightgray;
+  border-right: 20px solid lightgray;
+}
+
+.header-news {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  background-color: orange;
+}
+
+.stories {
+  width: 100%;
+  padding: 0 1rem;
+  list-style: inside decimal;
+  counter-reset: item;
+}
+
+@media (prefers-color-scheme: dark) {
+  h3 {
+    color: black;
+  }
+
+  .news {
+    border-left: 20px solid #333;
+    border-right: 20px solid #333;
+  }
+}
